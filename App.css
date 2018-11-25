@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.Page-header {
+  background-color: #282c34;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.Page-main {
+  align-items: left;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  margin-top: 50px;
+  display:flex;
+  flex-direction:row
+}
+
+.card1 {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+.Page-footer {
+  background-color: gray;
+  align-items: left;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-top: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
